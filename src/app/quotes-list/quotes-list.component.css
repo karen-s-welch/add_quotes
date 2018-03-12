@@ -1,0 +1,20 @@
+h1{
+  font-family: sans-serif;
+  width: 180px;
+  margin-left: 18%;
+  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+}
+
+h4, h5{
+  font-family: sans-serif;
+  font-weight: normal;
+}
+
+h5{
+  margin-left: 70%;
+}
+
+.quotelist{
+  width: 50%;
+}

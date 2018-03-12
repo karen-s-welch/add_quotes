@@ -1,0 +1,11 @@
+<div class="addquote">
+  <h1>{{ title }}</h1>
+
+  <form (submit)='onSubmit()'>
+    <input type="text" name="quote" [(ngModel)]='quote.quote'>
+    <p>Author <input type="text" name="author"[(ngModel)]='quote.author'></p>
+    <input type="submit" value="Add Quote">
+  </form>
+
+{{ quote.quote | json }}
+{{ quote.author | json }}

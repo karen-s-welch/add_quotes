@@ -1,0 +1,5 @@
+<h1>{{ title }}</h1>
+<div class = "quotelist" *ngFor = 'let quote of all_quotes'>
+  <h4>{{ quote.quote | json }}</h4>
+  <h5>-- {{ quote.author | json }}</h5>
+</div>
